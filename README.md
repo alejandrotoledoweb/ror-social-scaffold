@@ -2,76 +2,69 @@
 
 > This repo includes intial code for social media app with basic styling. Its purpose is to be a starting point for Microverse students.
 
+In this project contains a social media app with ruby on rails using the MVC process.
+In this specific branch I create the friendship model that connects between users.
+
+![screenshot](./app/assets/images/screenshot-1.png)
+![screenshot](./app/assets/images/screenshot-2.png)
+
 ## Built With
 
 - Ruby v2.7.0
-- Ruby on Rails v5.2.4
+- Ruby on Rails v5.2.4.1
 
-## Live Demo
-
-TBA
-
-
-## Getting Started
-
-To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-Ruby: 2.6.3
-Rails: 5.2.3
-Postgres: >=9.5
+Ruby: 2.7.0
+Rails: 5.2.4.4
+PostgreSQL: >=12.5
 
-### Setup
+## Setup
 
-Instal gems with:
+### Installation
 
-```
-bundle install
-```
+Get a local copy on the project
 
-Setup database with:
+`git clone https://github.com/alejandrotoledoweb/ror-social-scaffold.git`
 
-```
-   rails db:create
-   rails db:migrate
-```
+cd on the folder created
+run the following commands to install the depedencies
+`bundle install`
+then create and migrate the tables for the databases
+`rails db:create`
+`rails db:migrate`
+`rails db:seed`
 
-### Github Actions
+Run these command to test the models and associations
 
-To make sure the linters' checks using Github Actions work properly, you should follow the next steps:
+run this command to start the server
+`rails server`
+and then go to this address http://localhost:3000 to have access.
 
-1. On your recently forked repo, enable the GitHub Actions in the Actions tab.
-2. Create the `feature/branch` and push.
-3. Start working on your milestone as usual.
-4. Open a PR from the `feature/branch` when your work is done.
+then you can sign up with your info and create posts, comments, like other posts, send friend request to other people.
 
+### Test models
 
-### Usage
+Run these command to test the models and associations
 
-Start server with:
+`rspec spec/models/friendship_spec.rb`
+`rspec spec/models/user_spec.rb`
 
-```
-    rails server
-```
-
-Open `http://localhost:3000/` in your browser.
-
-### Run tests
-
-```
-    rpsec --format documentation
-```
 
 > Tests will be added by Microverse students. There are no tests for initial features in order to make sure that students write all tests from scratch.
 
 ### Deployment
 
-TBA
+You can check the entire project live version in this [link]()
 
 ## Authors
 
-TBA
+👤 **Alejandro Toledo**
+
+- GitHub: [@alejandrotoledoweb](https://github.com/alejandrotoledoweb)
+- Twitter: [@alejot](https://twitter.com/alejot) 
+- LinkedIn: [Alejandro Toledo](https://www.linkedin.com/in/alejandro-toledo-3b444b109/) 
 
 ## 🤝 Contributing
 
@@ -85,7 +78,10 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-TBA
+
+- Project originally taken from The Odin Project
+- Project inspired by Microverse Program
+
 
 ## 📝 License
 
