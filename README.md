@@ -5,8 +5,8 @@
 In this project contains a social media app with ruby on rails using the MVC process.
 In this specific branch I create the friendship model that connects between users.
 
-![screenshot](./app/assets/images/users-unfriend.png)
-![screenshot](./app/assets/images/send-friend-request.png)
+![screenshot](./app/assets/images/screenshoot-1.png)
+![screenshot](./app/assets/images/screenshot-2.png)
 
 ## Built With
 
@@ -16,9 +16,9 @@ In this specific branch I create the friendship model that connects between user
 
 ### Prerequisites
 
-Ruby: 2.6.3
-Rails: 5.2.3
-Postgres: >=9.5
+Ruby: 2.7.0
+Rails: 5.2.4
+PostgreSQL: >=12.5
 
 ## Setup
 
@@ -52,21 +52,11 @@ Run these command to test the models and associations
 `rspec spec/models/user_spec.rb`
 
 
-### Github Actions
-
-To make sure the linters' checks using Github Actions work properly, you should follow the next steps:
-
-1. On your recently forked repo, enable the GitHub Actions in the Actions tab.
-2. Create the `feature/branch` and push.
-3. Start working on your milestone as usual.
-4. Open a PR from the `feature/branch` when your work is done.
-
-
 > Tests will be added by Microverse students. There are no tests for initial features in order to make sure that students write all tests from scratch.
 
 ### Deployment
 
-TBA
+You can check the entire project live version in this [link]()
 
 ## Authors
 
