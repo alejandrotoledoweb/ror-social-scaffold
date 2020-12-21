@@ -5,7 +5,7 @@
 In this project contains a social media app with ruby on rails using the MVC process.
 In this specific branch I create the friendship model that connects between users.
 
-![screenshot](./app/assets/images/screenshoot-1.png)
+![screenshot](./app/assets/images/screenshot-1.png)
 ![screenshot](./app/assets/images/screenshot-2.png)
 
 ## Built With
@@ -17,7 +17,7 @@ In this specific branch I create the friendship model that connects between user
 ### Prerequisites
 
 Ruby: 2.7.0
-Rails: 5.2.4
+Rails: 5.2.4.4
 PostgreSQL: >=12.5
 
 ## Setup
