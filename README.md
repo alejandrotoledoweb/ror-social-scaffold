@@ -56,7 +56,8 @@ Run these command to test the models and associations
 
 ### Deployment
 
-You can check the entire project live version in this [link](https://vast-ridge-61239.herokuapp.com/)
+You can check the entire project live version in this [link](https://vast-ridge-61239.herokuapp.com/).
+
 
 ## Authors
 
