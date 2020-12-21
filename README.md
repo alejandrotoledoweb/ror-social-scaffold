@@ -36,7 +36,7 @@ then create and migrate the tables for the databases
 `rails db:migrate`
 `rails db:seed`
 
-### Usage
+Run these command to test the models and associations
 
 run this command to start the server
 `rails server`
