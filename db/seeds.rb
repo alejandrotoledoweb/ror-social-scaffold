@@ -6,8 +6,8 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 # rubocop:disable Layout/LineLength
-u1 = User.create(name: 'Luke Theo', email: 'b.email@example.com', password: 'secretpass', password_confirmation: 'secretpass')
-u2 = User.create(name: 'Mak Saro', email: 'k.email@example.com', password: 'secretpass', password_confirmation: 'secretpass')
+u1 = User.create(name: 'Alex Tonello', email: 'a.email@example.com', password: 'secretpass', password_confirmation: 'secretpass')
+u2 = User.create(name: 'Jorge Roman', email: 'j.email@example.com', password: 'secretpass', password_confirmation: 'secretpass')
 # rubocop:enable Layout/LineLength
 
 # rubocop:disable Lint/UselessAssignment
